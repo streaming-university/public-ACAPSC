@@ -33,7 +33,7 @@ docker run -p 80:80 \ # web server will be accesible on port 80
 	   -v "$PWD:/home" \ # You need to map a location to be able to use your video files
 	   -w "/home" \ # If you want to use your own video files
 	   --name capsc-demo \ # Optional: If you want to name the container
-	   ghcr.io/denizugur/capsc \ # Chanege it to `capsc` if you built the image yourself
+	   ghcr.io/streaming-university/capsc \ # Chanege it to `capsc` if you built the image yourself
 	   --help # Shows the usage instructions for the demo
 ```
 
